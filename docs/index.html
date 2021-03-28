@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Peter's Restaurant</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet"> 
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/pizza.png">
+    </head>
+    <body>
+        <div id="content">
+
+            <nav>
+                <a href="#title">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+
+            <div id="main-content">
+                <div id="title">
+                    <h1 id="title-left">Uncle Roger's</h1>
+                    <h1 id="title-right">Egg Fried Pizza</h1>
+                    <hr>
+                    <h2>Haiyaa, Gordon Ramsay no good</h2>
+                    <h2>Fuiyoo, Uncle Roger show you real food</h2>
+                </div>
+
+                <div id="menu">
+                    <h2>Menu</h2>
+                    <div id="menu-items">
+                        <figure class="item">
+                            <img src="images/classic-pizza.png" alt="classic pizza">
+                            <br>
+                            <figcaption>Classic Pizza</figcaption>
+                            <figcaption>$7.99</figcaption>
+                        </figure>
+                        <figure class="item">
+                            <img src="images/mushroom-pizza.png" alt="mushroom pizza">
+                            <br>
+                            <figcaption>Yuck Mushroom Pizza</figcaption>
+                            <figcaption>$5.99</figcaption>
+                        </figure>
+                        <figure class="item">
+                            <img src="images/pepperoni-pizza.png" alt="pepperoni pizza">
+                            <br>
+                            <figcaption>Pepperoni Pizza</figcaption>
+                            <figcaption>$7.99</figcaption>
+                        </figure>
+                        <figure class="item">
+                            <img src="images/bread.png" alt="bread">
+                            <br>
+                            <figcaption>Bread</figcaption>
+                            <figcaption>$0.99</figcaption>
+                        </figure>
+                        <figure class="item">
+                            <img src="images/egg-fried-rice.png" alt="egg fried rice">
+                            <br>
+                            <figcaption>Egg Fried Rice</figcaption>
+                            <figcaption>$5.99</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div id="contact">
+                    <h2>Contact Us</h2>
+                    <div id="contact-container">
+                        <div class="contact-box" id="our-contact">
+                            <h3>Customer Service:</h3>
+                            <p>339-XXX-XXXX</p>
+                            <h3>Food Ordering:</h3>
+                            <p>781-XXX-XXXX</p>
+                        </div>
+                        <div class="contact-box" id="message-box">
+                            <h3>Send a message (advices or complaints)</h3>
+                            <form>
+                                <label for="name">Your Name:</label>
+                                <br>
+                                <input type="text" id="name" name="name" placeholder="Uncle Roger">
+                                <br>
+                                <label for="phone">Your Number (How We Can Contact You)</label>
+                                <br>
+                                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                                <br>
+                                <label for="message">Your Message:</label>
+                                <br>
+                                <textarea type="text" id="message" name="message" placeholder="Type your message here"></textarea>
+                                <br>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>Made by Talkative Egg</p>
+            </footer>
+
+        </div>
+    </body>
+    
+    <script src="main.js"></script>
+</html>
