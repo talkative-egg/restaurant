@@ -30,7 +30,7 @@ body{
 
 body::after {
     content: "";
-    background: lightblue url("../images/background-image.jpeg") no-repeat fixed center;
+    background: lightblue url("images/background-image.jpeg") no-repeat fixed center;
     background-size: cover;
     opacity: 0.5;
     top: 0;
